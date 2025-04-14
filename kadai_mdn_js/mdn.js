@@ -1,7 +1,7 @@
 const date = new Date();
 const [year, month, day] = [
   date.getFullYear(),
-  date.getMonth(),
+  date.getMonth() + 1,
   date.getDate(),
 ];
 
